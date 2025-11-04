@@ -20,6 +20,7 @@ final String? Function(String?)? validator;
            Text(text,style: Theme.of(context).textTheme.displayMedium ,),
            SizedBox(height: 8,),
     TextFormField(
+        style: TextStyle(color: Colors.white),
       validator:validator ,
       readOnly: readonly,
       controller:controller,
